@@ -3,9 +3,9 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[709,0,213,70],[597,273,221,70],[597,0,110,271],[221,0,186,587],[409,0,186,587],[0,0,219,587]]},
-		{name:"index_atlas_2", frames: [[510,1188,248,596],[1268,0,234,598],[1714,600,228,596],[0,0,257,592],[0,594,257,592],[518,0,248,596],[1010,598,234,598],[1010,1198,234,598],[1504,0,234,598],[1740,0,234,598],[259,1188,249,594],[0,1188,257,592],[1479,1200,230,598],[760,598,248,596],[259,0,257,592],[768,0,248,596],[518,598,222,587],[760,1196,248,596],[259,594,257,592],[1482,600,230,598],[1714,1198,221,589],[1018,0,248,596],[1246,600,234,598],[1246,1200,231,598]]},
-		{name:"index_atlas_3", frames: [[1460,0,263,589],[327,1182,316,587],[645,1182,277,587],[1455,1182,261,590],[924,1179,264,588],[1190,590,263,589],[1718,1182,258,592],[928,0,264,588],[1194,0,264,588],[1725,0,263,589],[0,593,346,587],[661,589,265,588],[0,0,575,591],[0,1182,325,587],[577,0,310,587],[348,593,311,587],[1190,1181,263,589],[1455,591,263,589],[1720,591,263,589]]}
+		{name:"pepito_atlas_1", frames: [[1460,0,263,589],[327,1182,316,587],[645,1182,277,587],[1455,1182,261,590],[924,1179,264,588],[1190,590,263,589],[1718,1182,258,592],[928,0,264,588],[1194,0,264,588],[1725,0,263,589],[0,593,346,587],[661,589,265,588],[0,0,575,591],[0,1182,325,587],[577,0,310,587],[348,593,311,587],[1190,1181,263,589],[1455,591,263,589],[1720,591,263,589]]},
+		{name:"pepito_atlas_2", frames: [[510,1188,248,596],[1268,0,234,598],[1714,600,228,596],[0,0,257,592],[0,594,257,592],[518,0,248,596],[1010,598,234,598],[1010,1198,234,598],[1504,0,234,598],[1740,0,234,598],[259,1188,249,594],[0,1188,257,592],[1479,1200,230,598],[760,598,248,596],[259,0,257,592],[768,0,248,596],[518,598,222,587],[760,1196,248,596],[259,594,257,592],[1482,600,230,598],[1714,1198,221,589],[1018,0,248,596],[1246,600,234,598],[1246,1200,231,598]]},
+		{name:"pepito_atlas_3", frames: [[709,0,213,70],[597,273,221,70],[597,0,110,271],[221,0,186,587],[409,0,186,587],[0,0,219,587]]}
 ];
 
 
@@ -30,14 +30,14 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_4 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.CachedBmp_3 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
@@ -50,329 +50,329 @@ p.nominalBounds = new cjs.Rectangle(0,0,2560,1440);
 
 
 (lib.CachedBmp_1 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_0db58fa3_e63e_4dc0_adca_56d68cabf9f8 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1393f147_c715_4124_a2dd_79957060ccb6 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1410acbe_8fb4_4e9f_8679_0af4498350ad = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_189b3d4f_e5ac_48d3_ab01_0eccc70b8ae7 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_1edd456e_3186_46ef_ae97_5bbccc219eb7 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(1);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_20f898a3_5e43_4131_8989_9237242a10d8 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(2);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_22182c02_d49c_4525_aca6_675a1f41bafe = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_301e2313_60ca_4ca3_bbb0_129d8e8e6577 = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_30aeaa31_9e17_4055_abeb_97db608eb813 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(3);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_349021e7_983d_454b_9de7_e14f7639ad4a = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_352530d3_2126_4359_8d60_0c65668ef778 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_39326204_7d89_481c_85bd_a62e21379d98 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3a460554_e665_4865_a20e_16cb7ce3a555 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3ba971ba_5193_48a2_a2d9_e9bd80596a91 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_3d1829ea_da09_4ea8_bda7_d9c666d25248 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_46e8395b_644b_469b_838d_c9338e212f21 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(6);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_4dc56bd2_8a40_409d_88b1_2285a9420dce = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(7);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_56010a2b_ac4f_4e12_8f1e_8f742cb17dbc = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_5cda3029_156d_4567_8884_d584c62586be = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_5ce67da2_181e_46c4_998f_1e9fc7eb5194 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(8);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_631b8685_693e_4320_b9cc_3636ae6faa1c = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_64a4a535_4f27_4bfe_9fc0_687ec4065f81 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6d747a61_f5c8_4926_b7af_b278b9be7f77 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(9);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_6f3dff0d_9a80_4b24_b1ea_caa5c0f109cd = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(10);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_764553b8_0b6a_4d88_bd92_d5683ded263c = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_80ca29cb_19f4_428d_9e40_fc79f4ff629e = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(11);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8311b149_9325_4b0d_bc66_18b7734a1f16 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_85d9ead3_0e23_4bcf_97ef_26f6655528e3 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8db32c88_b559_4c6a_a6a7_ea40e53714f6 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_8e2fffc1_b883_4b16_b8c4_74b4158d5651 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_99f15a1c_5f25_41f8_a97a_3a9e30f537bf = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_9bb9ded0_863c_47e7_a8b5_75d44b837bb8 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b046515c_41aa_49bf_8fa5_f63824fc5516 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(12);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b189402c_3807_410a_a0a4_92005702aa21 = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(13);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b1e21422_b3d6_47eb_ad8c_5ffedc18c3ed = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(14);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b52a7539_c927_42cd_971d_66433231ab9f = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_b614b7c4_21ad_4431_adc9_8369ae50bb2d = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(15);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_bf5c1018_52da_42cd_a6ca_3c030c93054d = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(19);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_c337f7ba_3b08_43a3_9658_c813e228fb6f = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(20);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_cfd6adcf_f502_4b3e_97c8_fd941cdc547d = function() {
-	this.initialize(ss["index_atlas_1"]);
+	this.initialize(ss["pepito_atlas_3"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d07d841d_e026_40ef_b001_5f5797b50559 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(21);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_d9cefce1_3bbf_452d_b4d3_bc58c74b3acb = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(16);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e4095512_fd00_460c_8a49_f61105ea8e42 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(22);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_e41cd056_9770_4514_b027_008dfb3f0fbb = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(17);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_f3b7dd49_b457_43dc_8068_2f4cbf8b8453 = function() {
-	this.initialize(ss["index_atlas_2"]);
+	this.initialize(ss["pepito_atlas_2"]);
 	this.gotoAndStop(23);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.BMP_fba4c514_b194_48b0_9366_894f04a1d39c = function() {
-	this.initialize(ss["index_atlas_3"]);
+	this.initialize(ss["pepito_atlas_1"]);
 	this.gotoAndStop(18);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
@@ -1300,7 +1300,7 @@ p.nominalBounds = new cjs.Rectangle(-175,-287,334.7,583.5);
 
 
 // stage content:
-(lib.index = function(mode,startPosition,loop,reversed) {
+(lib.pepito = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1387,18 +1387,24 @@ if (reversed == null) { reversed = false; }
 
 	// saludo
 	this.instance_1 = new lib.personaje_mc();
-	this.instance_1.setTransform(640.1,360.75);
+	this.instance_1.setTransform(140.95,360.75);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).to({_off:true},9).wait(1));
+	this.instance_2 = new lib.personaje_mc();
+	this.instance_2.setTransform(392.5,360.75);
+
+	this.instance_3 = new lib.personaje_mc();
+	this.instance_3.setTransform(640.1,360.75);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2},{t:this.instance_1}]}).to({state:[]},9).wait(1));
 
 	// BACKGROUND
-	this.instance_2 = new lib.CachedBmp_2();
-	this.instance_2.setTransform(0,0,0.5,0.5);
+	this.instance_4 = new lib.CachedBmp_2();
+	this.instance_4.setTransform(0,0,0.5,0.5);
 
-	this.instance_3 = new lib.CachedBmp_1();
-	this.instance_3.setTransform(892.7,473.6,0.5,0.5);
+	this.instance_5 = new lib.CachedBmp_1();
+	this.instance_5.setTransform(892.7,473.6,0.5,0.5);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_3},{t:this.instance_2}]}).wait(10));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_5},{t:this.instance_4}]}).wait(10));
 
 	this._renderFirstFrame();
 
@@ -1413,10 +1419,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/CachedBmp_2.png?1668126394887", id:"CachedBmp_2"},
-		{src:"images/index_atlas_1.png?1668126394829", id:"index_atlas_1"},
-		{src:"images/index_atlas_2.png?1668126394829", id:"index_atlas_2"},
-		{src:"images/index_atlas_3.png?1668126394830", id:"index_atlas_3"}
+		{src:"images/CachedBmp_2.png?1668126423217", id:"CachedBmp_2"},
+		{src:"images/pepito_atlas_1.png?1668126423160", id:"pepito_atlas_1"},
+		{src:"images/pepito_atlas_2.png?1668126423160", id:"pepito_atlas_2"},
+		{src:"images/pepito_atlas_3.png?1668126423161", id:"pepito_atlas_3"}
 	],
 	preloads: []
 };
